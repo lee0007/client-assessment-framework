@@ -1,5 +1,3 @@
-I'd be happy to develop a comprehensive questionnaire for your engineering firm's client assessment. Starting with an opening problem statement and then creating 10 questions (5 for each end) of each dimension will help you identify patterns in client behaviors.
-
 ## Opening Questions
 
 1. "Please briefly describe the problem your organization is trying to solve."
