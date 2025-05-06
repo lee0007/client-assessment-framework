@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Assessment Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Client Assessment Dashboard</h1>
+        
+        <div class="dashboard">
+            <!-- Client Type Card -->
+            <div class="card">
+                <div class="card-header">
+                    <h2>Client Type</h2>
+                    <button id="editBtn" class="btn">Edit</button>
+                </div>
+                
+                <div id="clientTypeDisplay">
+                    <div class="type-display">
+                        <span id="clientType" class="type-code">ENTJ</span>
+                        <p id="typeDescription" class="type-description">External, big-picture, logical, structured</p>
+                    </div>
+                    
+                    <div class="dimensions">
+                        <div class="dimension">
+                            <p>Internal-External</p>
+                            <div class="progress-container">
+                                <div id="ieProgress" class="progress-bar"></div>
+                            </div>
+                            <div class="labels">
+                                <span>External</span>
+                                <span id="ieValue">6</span>
+                                <span>Internal</span>
+                            </div>
+                        </div>
+                        <!-- Additional dimensions will be here -->
+                    </div>
+                </div>
+                
+                <div id="editForm" class="hidden">
+                    <h3>Dimension Scores</h3>
+                    <div class="form-grid">
+                        <div>
+                            <label>Internal-External</label>
+                            <input type="range" id="ieSlider" min="-10" max="10" value="6" />
+                            <div class="range-labels">
+                                <span>External (-10)</span>
+                                <span id="ieSliderValue">6</span>
+                                <span>Internal (+10)</span>
+                            </div>
+                        </div>
+                        <!-- Additional sliders will be here -->
+                    </div>
+                    
+                    <h3>Risk Factors</h3>
+                    <div class="form-grid">
+                        <div>
+                            <label>Base Risk (1-7)</label>
+                            <input type="number" id="baseRisk" min="1" max="7" value="1" />
+                        </div>
+                        <!-- Additional risk inputs will be here -->
+                    </div>
+                    
+                    <button id="updateBtn" class="btn btn-primary">Update Client Data</button>
+                </div>
+            </div>
+            
+            <!-- Risk Assessment Card -->
+            <div class="card">
+                <h2>Risk Assessment</h2>
+                <div class="risk-meter">
+                    <div class="risk-header">
+                        <span>Total Risk Score: <span id="totalRisk">1</span></span>
+                        <span id="riskLevel" class="risk-level low">LOW RISK</span>
+                    </div>
+                    <div class="progress-container">
+                        <div id="riskProgress" class="progress-bar"></div>
+                    </div>
+                </div>
+                
+                <div class="risk-breakdown">
+                    <h3>Risk Breakdown</h3>
+                    <!-- Risk factor breakdown will be here -->
+                </div>
+                
+                <div class="approach">
+                    <h3>Recommended Approach</h3>
+                    <p id="recommendedApproach">Strategic planning, decision-oriented, efficiency</p>
+                </div>
+            </div>
+            
+            <!-- Radar Chart -->
+            <div class="card">
+                <h2>Dimension Profile</h2>
+                <div class="chart-container">
+                    <canvas id="radarChart"></canvas>
+                </div>
+            </div>
+            
+            <!-- Client Types Reference -->
+            <div class="card">
+                <h2>Client Types Reference</h2>
+                <div class="table-container">
+                    <table id="typeTable">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Description</th>
+                                <th>Risk</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Table content will be generated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
