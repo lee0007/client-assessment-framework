@@ -3,7 +3,7 @@
 1. "Please briefly describe the problem your organization is trying to solve."
    (Open text field)
 
-2. "How clearly defined is your problem at this stage?"
+2. "Our problem is clearly defined at this stage."
    - Strongly agree
    - Agree
    - Neutral
