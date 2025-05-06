@@ -1,84 +1,218 @@
-## Scoring Matrix Design
+# Assessment Scoring Methodology
 
-### Basic Scoring Approach
-For each question, assign points based on the response:
-- Strongly agree: +2
-- Agree: +1
-- Neutral: 0
-- Disagree: -1
-- Strongly disagree: -2
+This document outlines the systematic approach used to score and interpret the Client Assessment Questionnaire responses. This methodology is designed to identify client types and potential risk factors in a consistent manner.
 
-### Dimension Calculations
+## Response Scoring
 
-For each dimension, we'll calculate scores for both poles separately, then determine where the client falls on the spectrum:
+Each response is assigned a numerical value based on the following scale:
 
-#### 1. Internal vs External Expertise Orientation
-- Sum the scores from the 5 Internal questions (I)
-- Sum the scores from the 5 External questions (E)
-- Final score: I - E (positive = Internal orientation, negative = External orientation)
+| Response | Score |
+|----------|-------|
+| Strongly agree | +2 |
+| Agree | +1 |
+| Neutral | 0 |
+| Disagree | -1 |
+| Strongly disagree | -2 |
 
-#### 2. Sensing vs Intuition Information Processing
-- Sum the scores from the 5 Sensing questions (S)
-- Sum the scores from the 5 Intuition questions (N)
-- Final score: S - N (positive = Sensing preference, negative = Intuition preference)
+## Dimension Calculations
 
-#### 3. Thinking vs Feeling Decision-Making
-- Sum the scores from the 5 Thinking questions (T)
-- Sum the scores from the 5 Feeling questions (F)
-- Final score: T - F (positive = Thinking preference, negative = Feeling preference)
+### 1. Internal vs External Expertise Orientation
 
-#### 4. Judging vs Perceiving Approach
-- Sum the scores from the 5 Judging questions (J)
-- Sum the scores from the 5 Perceiving questions (P)
-- Final score: J - P (positive = Judging preference, negative = Perceiving preference)
+- **Internal Score**: Sum the scores from questions 1-5 (range: -10 to +10)
+- **External Score**: Sum the scores from questions 6-10 (range: -10 to +10)
+- **Final I-E Dimension Score**: Internal Score - External Score
+  - Positive score indicates Internal orientation
+  - Negative score indicates External orientation
 
-### Interpretation Matrix
+### 2. Sensing vs Intuition Information Processing
 
-For each dimension, the score range is -10 to +10:
-- Strong preference: 7 to 10 (or -7 to -10)
-- Moderate preference: 4 to 6 (or -4 to -6)
-- Slight preference: 1 to 3 (or -1 to -3)
-- No clear preference: 0
+- **Sensing Score**: Sum the scores from questions 11-15 (range: -10 to +10)
+- **Intuition Score**: Sum the scores from questions 16-20 (range: -10 to +10)
+- **Final S-N Dimension Score**: Sensing Score - Intuition Score
+  - Positive score indicates Sensing preference
+  - Negative score indicates Intuition preference
 
-### Client Type Classification
+### 3. Thinking vs Feeling Decision-Making
 
-Based on the four-letter code (similar to MBTI), you'll have 16 possible client types. Here's a preliminary interpretation of what each type might represent in your context:
+- **Thinking Score**: Sum the scores from questions 21-25 (range: -10 to +10)
+- **Feeling Score**: Sum the scores from questions 26-30 (range: -10 to +10)
+- **Final T-F Dimension Score**: Thinking Score - Feeling Score
+  - Positive score indicates Thinking preference
+  - Negative score indicates Feeling preference
 
-| Type | Description | Tire Kicker Risk |
-|------|-------------|------------------|
-| ISTJ | Internal, detail-focused, logical, structured | Low |
-| ISFJ | Internal, detail-focused, consensus-oriented, structured | Low-Medium |
-| INFJ | Internal, big-picture, consensus-oriented, structured | Medium |
-| INTJ | Internal, big-picture, logical, structured | Low |
-| ISTP | Internal, detail-focused, logical, flexible | Medium |
-| ISFP | Internal, detail-focused, consensus-oriented, flexible | Medium-High |
-| INFP | Internal, big-picture, consensus-oriented, flexible | High |
-| INTP | Internal, big-picture, logical, flexible | Medium |
-| ESTJ | External, detail-focused, logical, structured | Low |
-| ESFJ | External, detail-focused, consensus-oriented, structured | Low-Medium |
-| ENFJ | External, big-picture, consensus-oriented, structured | Medium |
-| ENTJ | External, big-picture, logical, structured | Low |
-| ESTP | External, detail-focused, logical, flexible | Medium-High |
-| ESFP | External, detail-focused, consensus-oriented, flexible | High |
-| ENFP | External, big-picture, consensus-oriented, flexible | High |
-| ENTP | External, big-picture, logical, flexible | Medium |
+### 4. Judging vs Perceiving Approach
 
-### Additional Risk Factors
+- **Judging Score**: Sum the scores from questions 31-35 (range: -10 to +10)
+- **Perceiving Score**: Sum the scores from questions 36-40 (range: -10 to +10)
+- **Final J-P Dimension Score**: Judging Score - Perceiving Score
+  - Positive score indicates Judging preference
+  - Negative score indicates Perceiving preference
 
-Consider adding points to the "Tire Kicker Risk" assessment for:
-1. Contradictory answers within dimensions
-2. Very neutral responses across all dimensions (might indicate lack of clear vision)
-3. Negative responses to the opening questions about problem definition clarity
+## Preference Strength Interpretation
 
+For each dimension, the score indicates both direction and strength of preference:
 
-## Red Flag Combinations
+| Score Range | Interpretation |
+|-------------|----------------|
+| 7 to 10 (or -7 to -10) | Strong preference |
+| 4 to 6 (or -4 to -6) | Moderate preference |
+| 1 to 3 (or -1 to -3) | Slight preference |
+| 0 | No clear preference |
 
-Based on initial hypothesis, these combinations might indicate higher tire kicker risk:
+## Client Type Classification
+
+The four-letter code is determined by the sign of each dimension score:
+
+1. **First Letter**: I or E (Internal or External)
+2. **Second Letter**: S or N (Sensing or Intuition)
+3. **Third Letter**: T or F (Thinking or Feeling)
+4. **Fourth Letter**: J or P (Judging or Perceiving)
+
+For example, a client with these dimension scores:
+- I-E: +5 (Internal)
+- S-N: -3 (Intuition)
+- T-F: +8 (Thinking)
+- J-P: -2 (Perceiving)
+
+Would be classified as: INTP
+
+## Risk Assessment
+
+The risk assessment combines several factors:
+
+### 1. Base Risk Score by Type
+
+Each client type has an associated base risk score determined through previous analysis and experience:
+
+| Type | Base Risk |
+|------|-----------|
+| ISTJ | 1 |
+| ISFJ | 2 |
+| INFJ | 4 |
+| INTJ | 1 |
+| ISTP | 3 |
+| ISFP | 5 |
+| INFP | 6 |
+| INTP | 3 |
+| ESTJ | 1 |
+| ESFJ | 2 |
+| ENFJ | 3 |
+| ENTJ | 1 |
+| ESTP | 5 |
+| ESFP | 6 |
+| ENFP | 7 |
+| ENTP | 4 |
+
+### 2. Red Flag Combinations
+
+Based on initial hypothesis, these combinations might indicate higher risk:
 - High External + High Perceiving + Low Thinking (looking for free education with no commitment)
 - High Internal + High Feeling + High Perceiving (may have difficulty committing to solutions)
 - Very high scores at both ends of any dimension (potentially confused about their needs)
 
-Would you like me to create a specific scoring spreadsheet template for this system, or would you prefer to start with this framework and refine it after collecting initial data? 
+Additional points are added to the risk score based on:
+
+1. **Contradictory Answers**: If high scores occur at both ends of any dimension
+   - Strong scores in both Internal AND External: +2 points
+   - Strong scores in both Sensing AND Intuition: +2 points
+   - Strong scores in both Thinking AND Feeling: +2 points
+   - Strong scores in both Judging AND Perceiving: +2 points
+
+2. **Neutral Responses**: Lack of clear preferences across dimensions
+   - If all dimension scores have an absolute value less than 2: +3 points
+
+3. **Unclear Problem Definition**: Based on opening questions
+   - If problem clarity question score is negative: +2 points
+  
+
+
+### 3. Total Risk Score and Interpretation
+
+The total risk score is the sum of the base risk and additional risk factors:
+
+| Total Risk Score | Risk Level | Interpretation |
+|------------------|------------|----------------|
+| 1-3 | LOW | Likely to be a good fit with clear needs and decision process |
+| 4-6 | MEDIUM | May require additional qualification before committing resources |
+| 7+ | HIGH | Significant potential for "tyre kicking" - proceed with caution |
+
+## Client Type Characteristics and Recommended Approaches
+
+Based on the four-letter code (similar to MBTI), you'll have 16 possible client types. Here's a preliminary interpretation of what each type might represent in our context:
+
+| Type | Description | Base Risk | Rating
+|------|-------------|------------------|-----------|
+| ISTJ | Internal, detail-focused, logical, structured |1| Low |
+| ISFJ | Internal, detail-focused, consensus-oriented, structured |2| Low-Medium |
+| INFJ | Internal, big-picture, consensus-oriented, structured |4| Medium |
+| INTJ | Internal, big-picture, logical, structured |1| Low |
+| ISTP | Internal, detail-focused, logical, flexible |3| Medium |
+| ISFP | Internal, detail-focused, consensus-oriented, flexible |5| Medium-High |
+| INFP | Internal, big-picture, consensus-oriented, flexible |6| High |
+| INTP | Internal, big-picture, logical, flexible |3| Medium |
+| ESTJ | External, detail-focused, logical, structured |1| Low |
+| ESFJ | External, detail-focused, consensus-oriented, structured |2| Low-Medium |
+| ENFJ | External, big-picture, consensus-oriented, structured |3| Medium |
+| ENTJ | External, big-picture, logical, structured |1| Low |
+| ESTP | External, detail-focused, logical, flexible |5| Medium-High |
+| ESFP | External, detail-focused, consensus-oriented, flexible |6| High |
+| ENFP | External, big-picture, consensus-oriented, flexible |7| High |
+| ENTP | External, big-picture, logical, flexible |4| Medium |
+
+### Internal, Structured Types
+
+**ISTJ - "The Inspector"**
+- *Characteristics*: Detail-oriented, methodical, relies on internal expertise
+- *Approach*: Provide concrete examples, clear deliverables, respect their process
+- *Risk Level*: Low (1)
+
+**ISFJ - "The Protector"**
+- *Characteristics*: Practical, service-oriented, consensus-building
+- *Approach*: Focus on practical impact for team, provide clear process
+- *Risk Level*: Low-Medium (2)
+
+### External, Structured Types
+
+**ESTJ - "The Supervisor"**
+- *Characteristics*: Organized, practical, results-driven
+- *Approach*: Structured process, clear deliverables, efficiency focus
+- *Risk Level*: Low (1)
+
+**ENTJ - "The Commander"**
+- *Characteristics*: Strategic, decisive, logical
+- *Approach*: Strategic planning, decision-oriented, efficiency
+- *Risk Level*: Low (1)
+
+### High-Risk Types
+
+**ENFP - "The Champion"**
+- *Characteristics*: Enthusiastic about possibilities, people-oriented, flexible
+- *Approach*: Connect to mission, emphasize possibilities, maintain focus
+- *Risk Level*: High (7)
+
+**ESFP - "The Performer"**
+- *Characteristics*: Action-oriented, people-focused, present-centered
+- *Approach*: Emphasize concrete benefits, maintain structure
+- *Risk Level*: High (6)
+
+For complete descriptions of all 16 types and their recommended approaches, refer to the Reference sheet in the Excel assessment template.
+
+## Validation Process
+
+This scoring methodology is being validated through:
+
+1. **Retrospective Analysis**: Scoring past clients and correlating with outcomes
+2. **Inter-rater Reliability**: Multiple team members scoring the same clients
+3. **Predictive Testing**: Prospective testing with new clients
+
+As patterns emerge, both the questionnaire and scoring methodology will be refined to improve accuracy and predictive value.
+
+## Implementation Notes
+
+1. The Excel template automatically calculates all these scores and classifications.
+2. The visualization dashboard provides an interactive way to explore client types.
+3. For team discussion, focus on dimension scores and patterns rather than just the four-letter code.
+4. Document both successes and failures to refine the risk assessment model.
 
 ## Visualization
 
