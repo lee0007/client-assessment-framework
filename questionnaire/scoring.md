@@ -1,4 +1,4 @@
-# Assessment Scoring Methodology
+# Assessment Scoring
 
 This document outlines the systematic approach used to score and interpret the Client Assessment Questionnaire responses. This methodology is designed to identify client types and potential risk factors in a consistent manner.
 
