@@ -2,15 +2,29 @@
 
 ## Project Hypothesis
 
-This project explores whether client behaviors follow discernible patterns that can help identify and prioritise potential clients and allocate appropriate team resources. By adapting concepts from personality typing systems like Myers-Briggs, we aim to categorize prospective clients to allocate our team's time and expertise better.
+By adapting concepts from business qualification frameworks (BAMT, MEDDIC) and personality typing systems like Myers-Briggs this project explores whether client problem /solution behaviors follow discernible patterns that can help identify and prioritise potential clients and allocate appropriate team resources.
 
 ## The Problem
 
-We often spend significant time with prospective clients who never convert to paying customers. For want of a better word, these "tyre kickers" consume valuable time  of leadership and senior technical and research staff, without resulting in long-term business opportunities.
+Investing significant time with prospective clients that don't convert into long-term business is a prevalent challenge in many B2B and consultancy-driven industries. This issue not only drains valuable resources but can also impact team morale and strategic focus.
+
+### Understanding the Core Issue
+1. High Cost of Time
+2. Misaligned Expectations
+3. Lack of Structured Qualification
+4. Inefficient Sales Process
+5. Data Gaps
+
+### Strategies to Address the Challenge
+1. Implement Lead Qualification Frameworks
+2. Tiered Engagement Model
+3. Set Clear ROI Metrics
+4. Offer Paid Discovery Phases
+5. Utilize CRM and Pipeline Analytics
 
 ## Potential Solution 
 
-We're investigating the potential of a client assessment framework based on four key dimensions that may be indicative of behavior patterns:
+This project advances the development of a structured qualification process to pre-screen access to leadership and reduce time spent on non-converting prospects, thereby improving efficiency and focusing efforts on high-potential opportunities. We're investigating the potential of a client assessment framework that incorporates BANT, and MEDDIC lead qualification frameworks and four key dimensions that may be indicative of prospective client behavior patterns:
 
 ### 1. Internal vs External Expertise Orientation
 How clients view the source of expertise needed to define their current problems and solutions:
