@@ -76,65 +76,6 @@ For example, a client with these dimension scores:
 
 Would be classified as: INTP
 
-## Risk Assessment
-
-The risk assessment combines several factors:
-
-### 1. Base Risk Score by Type
-
-Each client type has an associated base risk score determined through previous analysis and experience:
-
-| Type | Base Risk |
-|------|-----------|
-| ISTJ | 1 |
-| ISFJ | 2 |
-| INFJ | 4 |
-| INTJ | 1 |
-| ISTP | 3 |
-| ISFP | 5 |
-| INFP | 6 |
-| INTP | 3 |
-| ESTJ | 1 |
-| ESFJ | 2 |
-| ENFJ | 3 |
-| ENTJ | 1 |
-| ESTP | 5 |
-| ESFP | 6 |
-| ENFP | 7 |
-| ENTP | 4 |
-
-### 2. Red Flag Combinations
-
-Based on initial hypothesis, these combinations might indicate higher risk:
-- High External + High Perceiving + Low Thinking (looking for free education with no commitment)
-- High Internal + High Feeling + High Perceiving (may have difficulty committing to solutions)
-- Very high scores at both ends of any dimension (potentially confused about their needs)
-
-Additional points are added to the risk score based on:
-
-1. **Contradictory Answers**: If high scores occur at both ends of any dimension
-   - Strong scores in both Internal AND External: +2 points
-   - Strong scores in both Sensing AND Intuition: +2 points
-   - Strong scores in both Thinking AND Feeling: +2 points
-   - Strong scores in both Judging AND Perceiving: +2 points
-
-2. **Neutral Responses**: Lack of clear preferences across dimensions
-   - If all dimension scores have an absolute value less than 2: +3 points
-
-3. **Unclear Problem Definition**: Based on opening questions
-   - If problem clarity question score is negative: +2 points
-  
-
-
-### 3. Total Risk Score and Interpretation
-
-The total risk score is the sum of the base risk and additional risk factors:
-
-| Total Risk Score | Risk Level | Interpretation |
-|------------------|------------|----------------|
-| 1-3 | LOW | Likely to be a good fit with clear needs and decision process |
-| 4-6 | MEDIUM | May require additional qualification before committing resources |
-| 7+ | HIGH | Significant potential for "tyre kicking" - proceed with caution |
 
 ## Client Type Characteristics and Recommended Approaches
 
